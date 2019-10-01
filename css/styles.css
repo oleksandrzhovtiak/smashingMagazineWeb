@@ -1,0 +1,59 @@
+@font-face{
+    font-family: Mija;
+    src: url(fonts/mija_regular-webfont.woff2);
+}
+
+
+body{
+    font-family: Mija, monospase;
+}
+
+/*header {
+    padding-left: 1000px;
+}*/
+.header {
+    background: #d33a2c;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    /*comment*/
+    padding: 20px 30px;
+    /*padding-left: 500px;*/
+}
+.menu{
+    display: flex;
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none; 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.menu img {
+    margin-bottom: 10px; 
+    width: 30px;
+    transition: all .3s;
+}
+
+.menu a:hover img {
+    transform: rotate(-20deg) scale(1.2);
+
+}
+.menu p {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0,8px;
+    margin-bottom: 5px;
+}
+.menu span{
+    font-size: 11px;
+    font-style: italic;
+    display: block;
+    text-align: center;
+
+}
